@@ -24,6 +24,7 @@ function App() {
   return (
     
     <>
+    <div id="page">
      <Particles
       className="particles-canvas"
       id="tsparticles"
@@ -83,7 +84,9 @@ function App() {
     <Experience />
     <Contacts />
     <Footer />
+    </div>
     </>
+    
   );
 }
 

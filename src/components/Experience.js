@@ -3,11 +3,11 @@ import notebook from "../metricas-de-TI-sucesso.jpg";
 
 const Experience = () => {
   return (
-  <div id="experience" className="container py-5">
+  <div id="experience" className="py-5">
       <div className="row">
         <div className="col-lg-6 col-xm-12">
             <div className="photo-wrap mb-5">
-                <img className="profile-img" src={notebook} alt="author..."></img>
+                <img className="profile-img2" src={notebook} alt="author..."></img>
             </div>
         </div>
         <div className="col-lg-6 col-xm-12">

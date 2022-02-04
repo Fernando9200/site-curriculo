@@ -4,7 +4,7 @@ import TestimonialsCarousel from "./TestimonialsCarousel";
 function Testimonials() {
   return ( 
   <div id="testimonials" className="testimonials">
-      <h1>Frameworks</h1>
+      <h1>Stacks</h1>
       <div className="container">
           <div className="testimonials-content">
             <TestimonialsCarousel />

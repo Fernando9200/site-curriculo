@@ -17,10 +17,9 @@ function Footer() {
         <div className="row">
             <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="d-flex">
-                    <p>rua guruçá</p>
                 </div>
                 <div className="d-flex">
-                    <a href="tel: 555-555-555">+7(960)555-5555</a>
+                    <a href="tel: (27) 9-9819-2780">+55 (27) 9-9819-2780</a>
                 </div>
                 <div className="d-flex">
                     <p>fernando91.sosa@hotmail.com</p>
@@ -45,18 +44,11 @@ function Footer() {
                 </div>
             </div>
             <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
-                <div className="d-flex justify-content-center">
-                    <FacebookShareButton
-                    url={"url qualquer"}
-                    quote={"Fullstack Developer"}
-                    >
-                      <FacebookIcon className="mx-3" size={36}/>
-                    </FacebookShareButton>
-                </div>
-                <p className="pt-3 text-center">
-                  Copyright&copy;
-                  {new Date().getFullYear()}&nbsp;Fernando Carretto
-                </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+        <button onClick={() => window.location.href = 'https://www.workana.com/freelancer/0e4ed7aa5719ac3e8e4835b4dd4a9c92'} class="btn btn-dark btn-lg" type="button">Workana</button>
+        <button onClick={() => window.location.href = 'https://www.linkedin.com/in/fernando-carretto/'} class="btn btn-dark btn-lg" type="button">LinkedIn</button>
+        <button onClick={() => window.location.href = 'https://github.com/Fernando9200?tab=repositories'} class="btn btn-dark btn-lg" type="button">GitHub</button>
+        </div>
             </div>
         </div>
       </div>

@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
+
+#page {
+  position: relative;
+}
+
+
 :root {
   --primary-white: #ffffff;
   --primary-light-grey: #f4f4f4;
@@ -13,45 +19,6 @@
   --primary-green: green;
 }
 
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
 body {
   font-family: "Roboto Condensed" sans-serif !important;
 }
@@ -61,7 +28,7 @@ nav{
   z-index: 2;
 }
 .logo {
-  width: 16.25rem
+  width: 6rem
 }
 
 /**************************** Menu Links ******************************/
@@ -112,6 +79,7 @@ nav ul li {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  z-index: -2;
 }
 
 .main-info {
@@ -162,6 +130,7 @@ nav ul li {
   color: var(--primary-white);
   margin: 2rem;
   text-decoration: none;
+  z-index: 0 !important;
 }
 
 .btn-main-offer:hover{
@@ -169,14 +138,15 @@ nav ul li {
   background-color: var(--primary-hover-red);
   color: var(--primary-white);
   transition: .2s ease-in-out;
+  z-index: 2;
 }
 
 /*------------------- Particles JS ------------------*/
 #tsparticles{
   position: absolute;
   height: 100vh;
-  width: 100vw;
-  z-index: 1;
+  width: 50% !important;
+  z-index: -1;
 }
 
 @media(max-width: 768px) {
@@ -187,10 +157,20 @@ nav ul li {
 
 /*------------------- About me ------------------*/
 
+#about{
+  background-color: white;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
 .photo-wrap {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 0;
 }
 
 .profile-img {
@@ -198,11 +178,13 @@ nav ul li {
   border-radius: 50%;
   padding: .3rem;
   border: 1px solid var(--primary-orange);
+  z-index: 0;
 }
 
 .about-heading {
   color: var(--primary-orange);
   text-transform: uppercase;
+  z-index: 0;
 }
 
 @media(max-width: 468px) {
@@ -244,6 +226,7 @@ nav ul li {
 
 .services .box {
   height: 16rem;
+  /* width: 20rem; */
   border-bottom: 0.2125rem solid var(--primary-orange);
   padding: 0.625rem;
   margin-bottom: 1.875rem;
@@ -267,7 +250,7 @@ nav ul li {
 /*------------------- Testimonials ------------------*/
 
 .testimonials {
-  background-image: url(computador.jpg);
+  background-image: url(notebook6.jpg);
   background-size: cover;
   background-color: var(--primary-black);
   text-align: center;
@@ -280,11 +263,13 @@ nav ul li {
   color:var(--primary-orange);
   padding: 3rem 0;
   text-transform: uppercase;
+  /* margin-top: -15%; */
 }
 
 .testimonials-content {
   text-align: center;
-  max-width: 53.125rem;
+  max-height: 25rem;
+  max-width: 25rem;
   margin: 0 auto 2rem auto;
   background: var(--primary-transparent-black);
 }
@@ -307,6 +292,7 @@ nav ul li {
   color: var(--primary-orange);
   font-weight: 600;
   text-transform: uppercase;
+  margin-top: 25%;
 }
 
 .myCarousel p {
@@ -314,8 +300,9 @@ nav ul li {
 }
 
 .carousel .slide img {
+  height: 10rem !important;
   width: 10rem !important;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 .carousel .slide {
@@ -463,4 +450,43 @@ textarea.form-control {
 
 .footer p{
   margin-bottom: 0;
+}
+
+
+/*---------------- Education -----------------------*/
+
+#education{
+  background-color: white;
+}
+
+#experience{
+  background-color: white;
+}
+
+.profile-img2 {
+  width: 25rem;
+  /* border-radius: 50%; */
+  padding: .3rem;
+  /* border: 1px solid var(--primary-orange); */
+}
+
+
+/*---------------- Social Media -----------------------*/
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.linkedin {
+  color: #0e76a8;
+}
+
+a.github {
+  color: white;
 }
