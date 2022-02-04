@@ -24,6 +24,13 @@ body {
   overflow-x: hidden !important;
 }
 
+@media screen and (max-width: 768px) {
+  body {
+      overflow-x: hidden !important;
+  }
+
+}
+
 /************************************ Navbar ***********************************/
 nav{
   z-index: 2;
