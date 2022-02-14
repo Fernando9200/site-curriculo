@@ -13,7 +13,7 @@ const AboutMe = () => {
         <div className="col-lg-6 col-xm-12">
             <h1 className="about-heading">about me</h1>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            In 2016 I started my degree in physics at the Federal University of Espírito Santo (UFES), dreaming of becoming a researcher. However, when I studied programming for the first time during one of the course subjects, I ended up falling in love with IT and decided that this was my true vocation. Since then, I have been looking to learn and train myself more and more.
             </p>
         </div>
       </div>

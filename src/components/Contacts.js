@@ -48,12 +48,12 @@ const Contacts = () => {
                 <input
                   type="text"
                   className="form-control"
-                  placeholder="Nome"
+                  placeholder="Name"
                   name="name"
                   ref={
                     register({
-                      required: "Por favor, escreva o seu nome",
-                      message: "Por favor, escreva o seu nome"
+                      required: "Please, write your name",
+                      message: "Please, write your name"
                     })
                   }
                 />
@@ -71,10 +71,10 @@ const Contacts = () => {
                   name="email"
                   ref={
                     register({
-                      required: "Por favor, escreva o seu e-mail",
+                      required: "Please, write your e-mail",
                       pattern: {
                         value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-                        message: "E-mail inválido"
+                        message: "invalid e-mail"
                       }
                     })
                   }
@@ -89,11 +89,11 @@ const Contacts = () => {
                 <input
                   type="text"
                   className="form-control"
-                  placeholder="Assunto"
+                  placeholder="Subject"
                   name="subject"
                   ref={
                     register({
-                      required: "Por favor, adicione um assunto",
+                      required: "Please, add a subject",
                     })
                   }
                 />
@@ -109,11 +109,11 @@ const Contacts = () => {
                 <textarea
                   type="text"
                   className="form-control"
-                  placeholder="Escreva a sua mensagem"
+                  placeholder="Write your message"
                   name="description"
                   ref={
                     register({
-                      required: "Por favor, escreva a sua mensagem",
+                      required: "Please, write your message",
                     })
                   }
                 ></textarea>

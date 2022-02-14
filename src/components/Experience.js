@@ -13,7 +13,7 @@ const Experience = () => {
         <div className="col-lg-6 col-xm-12">
             <h1 className="about-heading">Experience</h1>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            I currently work as an intern full stack developer at Locus Custom Software, implementing modifications and fixing bugs in web applications using Django and mobile applications using Flutter. I also have a lot of experience in other stacks, such as React and Bootstrap. Finally, I've worked as a freelancer with Search Engine Optimization (SEO), implementing improvements in online content.
             </p>
         </div>
       </div>

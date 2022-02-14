@@ -15,7 +15,6 @@ function Services() {
                     <div className="box">
        <div className="circle"> <FontAwesomeIcon className="icon" icon={faMobile} size="2x" /> </div>
                         <h3>Mobile Development</h3>
-                        <p>fodase fodase fodase fodase fodase</p>
                     </div>
                 </div>
                 { /* - */}
@@ -23,7 +22,6 @@ function Services() {
                     <div className="box">
         <div className="circle"> <FontAwesomeIcon className="icon" icon={faDesktop} size="2x" /> </div>
                         <h3>Web Development</h3>
-                        <p>fodase fodase fodase fodase fodase</p>
                     </div>
                 </div>
                 { /* - */}
@@ -31,7 +29,6 @@ function Services() {
                     <div className="box">
         <div className="circle"> <FontAwesomeIcon className="icon" icon={faGoogle} size="2x" /> </div>
                         <h3>Search Engine Otimization</h3>
-                        <p>fodase fodase fodase fodase fodase</p>
                     </div>
                 </div>
             </div>
