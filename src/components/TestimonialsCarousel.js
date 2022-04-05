@@ -9,34 +9,13 @@ import avatar5 from "./avatars/javascript3.png";
 import avatar6 from "./avatars/html.png";
 import avatar7 from "./avatars/css.png";
 import avatar8 from "./avatars/python.png";
+import avatar9 from "./avatars/nodejs.png";
+import avatar10 from "./avatars/dart2.png";
+import avatar11 from "./avatars/git.png";
 
 function TestimonialsCarousel() {
   return ( 
   <Carousel>
-      <>
-        <img src={avatar1} alt="imagem"></img>
-    <div className="myCarousel">
-        <h3>Bootstrap</h3>
-    </div>
-      </>
-      <>
-        <img src={avatar2} alt="imagem"></img>
-    <div className="myCarousel">
-        <h3>React</h3>
-    </div>
-      </>
-      <>
-        <img src={avatar3} alt="imagem"></img>
-    <div className="myCarousel">
-        <h3>Django</h3>
-    </div>
-      </>
-      <>
-        <img src={avatar4} alt="imagem"></img>
-    <div className="myCarousel">
-        <h3>Flutter</h3>
-    </div>
-      </>
       <>
         <img src={avatar5} alt="imagem"></img>
     <div className="myCarousel">
@@ -59,6 +38,48 @@ function TestimonialsCarousel() {
         <img src={avatar8} alt="imagem"></img>
     <div className="myCarousel">
         <h3>Python</h3>
+    </div>
+      </>
+      <>
+        <img src={avatar10} alt="imagem"></img>
+    <div className="myCarousel">
+        <h3>Dart</h3>
+    </div>
+      </>
+      <>
+        <img src={avatar2} alt="imagem"></img>
+    <div className="myCarousel">
+        <h3>React</h3>
+    </div>
+      </>
+      <>
+        <img src={avatar3} alt="imagem"></img>
+    <div className="myCarousel">
+        <h3>Django</h3>
+    </div>
+      </>
+      <>
+        <img src={avatar4} alt="imagem"></img>
+    <div className="myCarousel">
+        <h3>Flutter</h3>
+    </div>
+      </>
+      <>
+        <img src={avatar1} alt="imagem"></img>
+    <div className="myCarousel">
+        <h3>Bootstrap</h3>
+    </div>
+      </>
+      <>
+        <img src={avatar9} alt="imagem"></img>
+    <div className="myCarousel">
+        <h3>Node.js</h3>
+    </div>
+      </>
+      <>
+        <img src={avatar11} alt="imagem"></img>
+    <div className="myCarousel">
+        <h3>Git</h3>
     </div>
       </>
   </Carousel> );
