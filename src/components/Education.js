@@ -12,7 +12,7 @@ const Education = () => {
         </div>
         <div className="col-lg-6 col-xm-12">
             <h1 className="about-heading">Education</h1>
-            <p style={{textAlign: 'justify', marginRight: '100px'}}>
+            <p style={{textAlign: 'justify', marginRight: '100px', marginTop: '25px'}}>
             In addition to my graduation in physics at UFES, I recently started the Systems Analysis and Development course at Universidade Estácio de Sá. I've also taken several web development courses on Udemy.
             </p>
         </div>
