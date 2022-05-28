@@ -129,32 +129,20 @@ const Portfolio = () => {
           src={taskManager}
           alt="Task Manager React and Redux Project..."
         />
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque
-          illo est expedita quos adipisci suscipit unde itaque qui perferendis.
+        <div class="clear"></div>
+        <p id="p-portfolio">
+          This is a front-end project that shows the details of the horror-drama
+          series Penny Dreadful
         </p>
-        <b>Demo:</b>{" "}
-        <a
+        <button
+          id="button-portfolio"
           className="hyper-link"
           onClick={() =>
-            window.open(
-              "https://react-redux-task-manager.herokuapp.com/",
-              "_blank"
-            )
+            window.open("https://github.com/Fernando9200/Dreadful-Details")
           }
         >
-          https://react-redux-task-manager.herokuapp.com/
-        </a>
-        <br />
-        <b>GitHub:</b>{" "}
-        <a
-          className="hyper-link"
-          onClick={() =>
-            window.open("https://github.com/8020Coding/task-manager", "_blank")
-          }
-        >
-          https://github.com/8020Coding/task-manager
-        </a>
+          Github
+        </button>
       </>
     );
     PopupboxManager.open({ content });
