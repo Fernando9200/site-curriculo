@@ -328,7 +328,7 @@ nav ul li {
   display: none;
 }
 
-/*------------------- Contacts ------------------*/
+/*------------------- Contact ------------------*/
 
 .contacts {
   background: var(--primary-dark);
@@ -498,7 +498,9 @@ a.github {
 /************************ PORTFOLIO *********************************/
 .portfolio-wrapper {
   background: var(--primary-light-grey);
-  padding: 3rem 0;
+  padding-top: 40px;
+  padding-bottom: 150px;
+  /* padding: 3rem 0; */
 }
 
 .portfolio-wrapper h1 {
@@ -509,6 +511,7 @@ a.github {
   width: 225px;
   border: 1px solid var(--primary-orange);
   padding: 0 0.5rem;
+  margin-top: 40px;
 }
 
 .portfolio-image-box {

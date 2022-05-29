@@ -50,7 +50,7 @@ export const Navbar = () => {
             <li className="nav-item">
               <Link
                 to="testimonials"
-                offset={-50}
+                offset={-48}
                 className="nav-link"
                 href="#"
               >
