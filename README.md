@@ -1,6 +1,6 @@
 # Portfolio
 
-This is an online portfolio where I describe my skills and education. It's essentially a single-page application made with React.js.
+This is an online portfolio where I describe my skills and education. It's essentially a single-page application made with React.js and bootstrap.
 
 ## Getting Started with Create React App
 
