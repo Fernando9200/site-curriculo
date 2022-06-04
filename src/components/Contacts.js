@@ -19,24 +19,28 @@ const Contacts = () => {
         phone: data.phone,
         email: data.email,
         subject: data.subject,
-        description: data.description
+        description: data.description,
       },
       userID
-    )
+    );
     r.target.reset();
-  }
+  };
 
   const sendEmail = (serviceID, templateID, variables, userID) => {
-    emailjs.send(serviceID, templateID, variables, userID)
+    emailjs
+      .send(serviceID, templateID, variables, userID)
       .then(() => {
-        setSuccessMessage("Mensagem enviada! Irei responder o mais rápido possível!");
-      }).catch(err => console.error(`Alguma coisa deu errado ${err}`));
-  }
+        setSuccessMessage(
+          "Mensagem enviada! Irei responder o mais rápido possível!"
+        );
+      })
+      .catch((err) => console.error(`Alguma coisa deu errado ${err}`));
+  };
 
   return (
     <div className="contacts">
       <div className="text-center">
-        <h1>contact me</h1>
+        <h1>contact</h1>
         <span className="success-message">{successMessage}</span>
       </div>
       <div className="container">
@@ -50,12 +54,10 @@ const Contacts = () => {
                   className="form-control"
                   placeholder="Name"
                   name="name"
-                  ref={
-                    register({
-                      required: "Please, write your name",
-                      message: "Please, write your name"
-                    })
-                  }
+                  ref={register({
+                    required: "Please, write your name",
+                    message: "Please, write your name",
+                  })}
                 />
                 <div className="line"></div>
               </div>
@@ -69,15 +71,13 @@ const Contacts = () => {
                   className="form-control"
                   placeholder="E-mail"
                   name="email"
-                  ref={
-                    register({
-                      required: "Please, write your e-mail",
-                      pattern: {
-                        value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-                        message: "invalid e-mail"
-                      }
-                    })
-                  }
+                  ref={register({
+                    required: "Please, write your e-mail",
+                    pattern: {
+                      value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+                      message: "invalid e-mail",
+                    },
+                  })}
                 />
                 <div className="line"></div>
               </div>
@@ -91,11 +91,9 @@ const Contacts = () => {
                   className="form-control"
                   placeholder="Subject"
                   name="subject"
-                  ref={
-                    register({
-                      required: "Please, add a subject",
-                    })
-                  }
+                  ref={register({
+                    required: "Please, add a subject",
+                  })}
                 />
                 <div className="line"></div>
               </div>
@@ -111,24 +109,24 @@ const Contacts = () => {
                   className="form-control"
                   placeholder="Write your message"
                   name="description"
-                  ref={
-                    register({
-                      required: "Please, write your message",
-                    })
-                  }
+                  ref={register({
+                    required: "Please, write your message",
+                  })}
                 ></textarea>
                 <div className="line"></div>
               </div>
               <span className="error-message">
                 {errors.description && errors.description.message}
               </span>
-              <button className="btn-main-offer contact-btn" type="submit">contact me</button>
+              <button className="btn-main-offer contact-btn" type="submit">
+                contact me
+              </button>
             </div>
           </div>
         </form>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Contacts;
