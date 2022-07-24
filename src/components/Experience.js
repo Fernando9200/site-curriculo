@@ -45,7 +45,7 @@ const Experience = () => {
                 // marginLeft: "260px",
               }}
             >
-              I worked as an intern full-stack developer at a brazilian company
+              I worked as an intern full-stack developer at a Brazilian company
               called{" "}
               <a
                 id="experience-link"
