@@ -58,7 +58,7 @@ export const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="experience" offset={-60} className="nav-link" href="#">
+              <Link to="experience" offset={-40} className="nav-link" href="#">
                 Experience
               </Link>
             </li>

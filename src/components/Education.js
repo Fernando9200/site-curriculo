@@ -22,7 +22,7 @@ const Education = () => {
             In addition to my graduation in physics at UFES, I recently started
             the Systems Analysis and Development course at Estácio de Sá
             University. I have also taken several web development courses on
-            Udemy.
+            Udemy and Coursera.
           </p>
         </div>
       </div>
