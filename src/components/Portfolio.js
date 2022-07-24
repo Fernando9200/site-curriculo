@@ -206,7 +206,7 @@ const Portfolio = () => {
         <div class="clear"></div>
         <p id="p-portfolio">
           This project is a blurry loading page made with the aim to study the
-          implementation of this feature in web applications.
+          implementation of this feature.
         </p>
         <button
           id="button-portfolio"
