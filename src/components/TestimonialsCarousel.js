@@ -56,7 +56,7 @@ function TestimonialsCarousel() {
       <>
         <img src={avatar12} alt="imagem"></img>
         <div className="myCarousel">
-          <h3>Vue</h3>
+          <h3>VueJS</h3>
         </div>
       </>
       <>
