@@ -10,10 +10,38 @@ const Experience = () => {
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2019-2021</h3>
+            <h3>2018</h3>
             <p
               style={{
                 textAlign: "justify",
+              }}
+            >
+              I acted as a Calculus 2 tutor at{" "}
+              <a
+                id="experience-link"
+                href="https://www.linkedin.com/school/univ-federal-do-espirito-santo/"
+              >
+                Federal University of Espírito Santo
+              </a>
+              .
+            </p>
+          </div>
+        </div>
+        {/* - */}
+        <div className="timeline-block timeline-block-left">
+          <div className="marker"></div>
+          <div className="timeline-content">
+            <h3
+              style={{
+                textAlign: "right",
+              }}
+            >
+              2019-2021
+            </h3>
+            <p
+              style={{
+                textAlign: "justify",
+                // marginLeft: "260px",
               }}
             >
               I worked as a freelancer at{" "}
@@ -29,20 +57,14 @@ const Experience = () => {
           </div>
         </div>
         {/* - */}
-        <div className="timeline-block timeline-block-left">
+        <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3
-              style={{
-                textAlign: "right",
-              }}
-            >
-              2021-2022
-            </h3>
+            <h3>2021-2022</h3>
             <p
               style={{
                 textAlign: "justify",
-                // marginLeft: "260px",
+                // marginRight: "250px",
               }}
             >
               I worked as an intern full-stack developer at a Brazilian company
@@ -59,14 +81,20 @@ const Experience = () => {
           </div>
         </div>
         {/* - */}
-        <div className="timeline-block timeline-block-right">
+        <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2022</h3>
+            <h3
+              style={{
+                textAlign: "right",
+              }}
+            >
+              2022
+            </h3>
             <p
               style={{
                 textAlign: "justify",
-                // marginRight: "250px",
+                // marginLeft: "260px",
               }}
             >
               I currently work as a junior front-end developer at{" "}
@@ -83,7 +111,6 @@ const Experience = () => {
             </p>
           </div>
         </div>
-        {/* - */}
       </div>
     </div>
   );
