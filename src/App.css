@@ -547,6 +547,12 @@ a.github {
   -webkit-user-select: none;
   touch-action: manipulation;
   vertical-align: middle;
+  margin-right: 20px;
+}
+
+#div-buttons {
+  position: relative;
+  left: 35%;
 }
 
 #button-portfolio:hover,

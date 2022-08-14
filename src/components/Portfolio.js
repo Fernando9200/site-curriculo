@@ -6,6 +6,7 @@ import JobSearcher from "../images/JobSearcher.png";
 import SplitLanding from "../images/SplitLanding.png";
 import BackgroundSlider from "../images/BackgroundSlider.png";
 import DoubleVerticalSlider from "../images/DoubleVerticalSlider.png";
+import ExpandingCards from "../images/ExpandingCards.png";
 import Clock from "../images/Clock.png";
 import Blurry from "../images/Blurry.jpg";
 import RotatingNav from "../images/RotatingNav.png";
@@ -32,15 +33,24 @@ const Portfolio = () => {
           This is a clone of netflix, made with the aim of studying the
           development of front-end interfaces.
         </p>
-        <button
-          id="button-portfolio"
-          className="hyper-link"
-          onClick={() =>
-            window.open("https://github.com/Fernando9200/Netflix-System")
-          }
-        >
-          Github
-        </button>
+        <div id="div-buttons" style={{ display: "inline" }}>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() =>
+              window.open("https://github.com/Fernando9200/Netflix-System")
+            }
+          >
+            Github
+          </button>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() => window.open("https://netflix-system.netlify.app/")}
+          >
+            Website
+          </button>
+        </div>
       </>
     );
     PopupboxManager.open({ content });
@@ -69,15 +79,28 @@ const Portfolio = () => {
           This is an application that aims to show the current price of various
           cryptocurrencies, made using flutter.
         </p>
-        <button
-          id="button-portfolio"
-          className="hyper-link"
-          onClick={() =>
-            window.open("https://github.com/Fernando9200/CryptoApp")
-          }
-        >
-          Github
-        </button>
+        <div id="div-buttons" style={{ display: "inline" }}>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() =>
+              window.open("https://github.com/Fernando9200/CryptoApp")
+            }
+          >
+            Github
+          </button>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() =>
+              window.open(
+                "https://play.google.com/store/apps/details?id=com.carretto.CryptoApp"
+              )
+            }
+          >
+            Website
+          </button>
+        </div>
       </>
     );
     PopupboxManager.open({ content });
@@ -106,13 +129,24 @@ const Portfolio = () => {
           This project is a simplified version of the SpaceX website, using
           their API to get the data.
         </p>
-        <button
-          id="button-portfolio"
-          className="hyper-link"
-          onClick={() => window.open("https://github.com/Fernando9200/SpaceX")}
-        >
-          Github
-        </button>
+        <div id="div-buttons" style={{ display: "inline" }}>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() =>
+              window.open("https://github.com/Fernando9200/SpaceX")
+            }
+          >
+            Github
+          </button>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() => window.open("https://new-spacex.netlify.app/")}
+          >
+            Website
+          </button>
+        </div>
       </>
     );
     PopupboxManager.open({ content });
@@ -141,15 +175,24 @@ const Portfolio = () => {
           This is a front-end project that shows the details of the horror-drama
           series Penny Dreadful
         </p>
-        <button
-          id="button-portfolio"
-          className="hyper-link"
-          onClick={() =>
-            window.open("https://github.com/Fernando9200/Dreadful-Details")
-          }
-        >
-          Github
-        </button>
+        <div id="div-buttons" style={{ display: "inline" }}>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() =>
+              window.open("https://github.com/Fernando9200/Dreadful-Details")
+            }
+          >
+            Github
+          </button>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() => window.open("https://dreadful-details.netlify.app/")}
+          >
+            Website
+          </button>
+        </div>
       </>
     );
     PopupboxManager.open({ content });
@@ -176,15 +219,26 @@ const Portfolio = () => {
           This is a project of a navigation menu for a blog or website that
           rotates the entire web application.
         </p>
-        <button
-          id="button-portfolio"
-          className="hyper-link"
-          onClick={() =>
-            window.open("https://github.com/Fernando9200/rotating-nav")
-          }
-        >
-          Github
-        </button>
+        <div id="div-buttons" style={{ display: "inline" }}>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() =>
+              window.open("https://github.com/Fernando9200/rotating-nav")
+            }
+          >
+            Github
+          </button>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() =>
+              window.open("https://rotating-nav-menu.netlify.app/")
+            }
+          >
+            Website
+          </button>
+        </div>
       </>
     );
     PopupboxManager.open({ content });
@@ -211,13 +265,26 @@ const Portfolio = () => {
           This project is a blurry loading page made with the aim to study the
           implementation of this feature.
         </p>
-        <button
-          id="button-portfolio"
-          className="hyper-link"
-          onClick={() => window.open("https://github.com/Fernando9200/blurry")}
-        >
-          Github
-        </button>
+        <div id="div-buttons" style={{ display: "inline" }}>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() =>
+              window.open("https://github.com/Fernando9200/blurry")
+            }
+          >
+            Github
+          </button>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() =>
+              window.open("https://blurry-image-loading.netlify.app/")
+            }
+          >
+            Website
+          </button>
+        </div>
       </>
     );
     PopupboxManager.open({ content });
@@ -244,15 +311,26 @@ const Portfolio = () => {
           This is the project of an front-end design for a website that promotes
           IT positions available.
         </p>
-        <button
-          id="button-portfolio"
-          className="hyper-link"
-          onClick={() =>
-            window.open("https://github.com/Fernando9200/Job-Searcher")
-          }
-        >
-          Github
-        </button>
+        <div id="div-buttons" style={{ display: "inline" }}>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() =>
+              window.open("https://github.com/Fernando9200/Job-Searcher")
+            }
+          >
+            Github
+          </button>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() =>
+              window.open("https://job-searcher-front.netlify.app/")
+            }
+          >
+            Website
+          </button>
+        </div>
       </>
     );
     PopupboxManager.open({ content });
@@ -275,13 +353,22 @@ const Portfolio = () => {
           This is a simple project of a website that shows a clock with the
           current date and time.
         </p>
-        <button
-          id="button-portfolio"
-          className="hyper-link"
-          onClick={() => window.open("https://github.com/Fernando9200/Clock")}
-        >
-          Github
-        </button>
+        <div id="div-buttons" style={{ display: "inline" }}>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() => window.open("https://github.com/Fernando9200/Clock")}
+          >
+            Github
+          </button>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() => window.open("https://simplest-clock.netlify.app/")}
+          >
+            Website
+          </button>
+        </div>
       </>
     );
     PopupboxManager.open({ content });
@@ -308,15 +395,24 @@ const Portfolio = () => {
           This is a project of a split landing page for a website made to buy a
           console.
         </p>
-        <button
-          id="button-portfolio"
-          className="hyper-link"
-          onClick={() =>
-            window.open("https://github.com/Fernando9200/split-landing")
-          }
-        >
-          Github
-        </button>
+        <div id="div-buttons" style={{ display: "inline" }}>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() =>
+              window.open("https://github.com/Fernando9200/split-landing")
+            }
+          >
+            Github
+          </button>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() => window.open("https://split-play5-xbox.netlify.app/")}
+          >
+            Website
+          </button>
+        </div>
       </>
     );
     PopupboxManager.open({ content });
@@ -343,15 +439,26 @@ const Portfolio = () => {
           This is a project of a website where the background and the image
           changes together.
         </p>
-        <button
-          id="button-portfolio"
-          className="hyper-link"
-          onClick={() =>
-            window.open("https://github.com/Fernando9200/background-slider")
-          }
-        >
-          Github
-        </button>
+        <div id="div-buttons" style={{ display: "inline" }}>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() =>
+              window.open("https://github.com/Fernando9200/background-slider")
+            }
+          >
+            Github
+          </button>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() =>
+              window.open("https://background-slider-images.netlify.app/")
+            }
+          >
+            Website
+          </button>
+        </div>
       </>
     );
     PopupboxManager.open({ content });
@@ -378,23 +485,80 @@ const Portfolio = () => {
           This is the project of a page with a slider that changes the theme of
           the website when clicked.
         </p>
-        <button
-          id="button-portfolio"
-          className="hyper-link"
-          onClick={() =>
-            window.open(
-              "https://github.com/Fernando9200/double-vertical-slider"
-            )
-          }
-        >
-          Github
-        </button>
+        <div id="div-buttons" style={{ display: "inline" }}>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() =>
+              window.open(
+                "https://github.com/Fernando9200/double-vertical-slider"
+              )
+            }
+          >
+            Github
+          </button>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() =>
+              window.open("https://double-vertical-slider-images.netlify.app/")
+            }
+          >
+            Website
+          </button>
+        </div>
       </>
     );
     PopupboxManager.open({ content });
   };
 
   const popupboxDoubleVerticalSlider = {
+    titleBar: {
+      enable: false,
+    },
+    fadeIn: true,
+    fadeInSpeed: 500,
+  };
+
+  const openExpandingCards = () => {
+    const content = (
+      <>
+        <img
+          className="portfolio-image-popupbox"
+          src={ExpandingCards}
+          alt="ExpandingCards..."
+        />
+        <div class="clear"></div>
+        <p id="p-portfolio">
+          This is a project of a page with images that works like expanding
+          cards when clicked.
+        </p>
+        <div id="div-buttons" style={{ display: "inline" }}>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() =>
+              window.open("https://github.com/Fernando9200/expading-cards")
+            }
+          >
+            Github
+          </button>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() =>
+              window.open("https://expanding-cards-images.netlify.app/")
+            }
+          >
+            Website
+          </button>
+        </div>
+      </>
+    );
+    PopupboxManager.open({ content });
+  };
+
+  const popupboxExpandingCards = {
     titleBar: {
       enable: false,
     },
@@ -540,11 +704,11 @@ const Portfolio = () => {
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
           {/* - */}
-          <div className="portfolio-image-box col" onClick={openPopupboxBlurry}>
+          <div className="portfolio-image-box col" onClick={openExpandingCards}>
             <img
               className="portfolio-image"
-              src={Blurry}
-              alt="Blurry Project..."
+              src={ExpandingCards}
+              alt="Expanding Cards..."
             />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
