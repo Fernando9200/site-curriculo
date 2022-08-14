@@ -3,6 +3,7 @@ import netflix from "../images/netflix.png";
 import cityGuide from "../images/city-guide-app.png";
 import portfolio from "../images/portfolio.png";
 import JobSearcher from "../images/JobSearcher.png";
+import SplitLanding from "../images/SplitLanding.png";
 import Clock from "../images/Clock.png";
 import Blurry from "../images/Blurry.jpg";
 import RotatingNav from "../images/RotatingNav.png";
@@ -292,6 +293,41 @@ const Portfolio = () => {
     fadeInSpeed: 500,
   };
 
+  const openSplitLanding = () => {
+    const content = (
+      <>
+        <img
+          className="portfolio-image-popupbox"
+          src={SplitLanding}
+          alt="SplitLanding..."
+        />
+        <div class="clear"></div>
+        <p id="p-portfolio">
+          This is a project of a split landing page for a website made to buy a
+          console.
+        </p>
+        <button
+          id="button-portfolio"
+          className="hyper-link"
+          onClick={() =>
+            window.open("https://github.com/Fernando9200/split-landing")
+          }
+        >
+          Github
+        </button>
+      </>
+    );
+    PopupboxManager.open({ content });
+  };
+
+  const popupboxSplitLanding = {
+    titleBar: {
+      enable: false,
+    },
+    fadeIn: true,
+    fadeInSpeed: 500,
+  };
+
   return (
     <div id="portfolio" className="portfolio-wrapper">
       <div className="container">
@@ -348,6 +384,7 @@ const Portfolio = () => {
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
+          {/* - */}
           <div
             className="portfolio-image-box col"
             onClick={openPopupboxJobSearcher}
@@ -356,6 +393,48 @@ const Portfolio = () => {
               className="portfolio-image"
               src={JobSearcher}
               alt="Job Searcher Project..."
+            />
+            <div className="overflow"></div>
+            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+          </div>
+          {/* - */}
+          <div className="portfolio-image-box col" onClick={openPopupboxClock}>
+            <img
+              className="portfolio-image"
+              src={Clock}
+              alt="Clock Project..."
+            />
+            <div className="overflow"></div>
+            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+          </div>
+          {/* - */}
+          <div
+            className="portfolio-image-box col"
+            onClick={openPopupboxRotatingNav}
+          >
+            <img
+              className="portfolio-image"
+              src={RotatingNav}
+              alt="Portfolio React and Material UI Project..."
+            />
+            <div className="overflow"></div>
+            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+          </div>
+          {/* - */}
+          <div className="portfolio-image-box col" onClick={openPopupboxBlurry}>
+            <img
+              className="portfolio-image"
+              src={Blurry}
+              alt="Blurry Project..."
+            />
+            <div className="overflow"></div>
+            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+          </div>
+          <div className="portfolio-image-box col" onClick={openSplitLanding}>
+            <img
+              className="portfolio-image"
+              src={SplitLanding}
+              alt="Split Landing Project..."
             />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
