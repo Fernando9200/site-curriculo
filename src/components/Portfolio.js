@@ -4,6 +4,7 @@ import cityGuide from "../images/city-guide-app.png";
 import portfolio from "../images/portfolio.png";
 import JobSearcher from "../images/JobSearcher.png";
 import SplitLanding from "../images/SplitLanding.png";
+import BackgroundSlider from "../images/BackgroundSlider.png";
 import Clock from "../images/Clock.png";
 import Blurry from "../images/Blurry.jpg";
 import RotatingNav from "../images/RotatingNav.png";
@@ -328,6 +329,41 @@ const Portfolio = () => {
     fadeInSpeed: 500,
   };
 
+  const openBackgroundSlider = () => {
+    const content = (
+      <>
+        <img
+          className="portfolio-image-popupbox"
+          src={BackgroundSlider}
+          alt="BackgroundSlider..."
+        />
+        <div class="clear"></div>
+        <p id="p-portfolio">
+          This is a project of a website where the background and the image
+          changes together.
+        </p>
+        <button
+          id="button-portfolio"
+          className="hyper-link"
+          onClick={() =>
+            window.open("https://github.com/Fernando9200/background-slider")
+          }
+        >
+          Github
+        </button>
+      </>
+    );
+    PopupboxManager.open({ content });
+  };
+
+  const popupboxBackgroundSlider = {
+    titleBar: {
+      enable: false,
+    },
+    fadeIn: true,
+    fadeInSpeed: 500,
+  };
+
   return (
     <div id="portfolio" className="portfolio-wrapper">
       <div className="container">
@@ -440,11 +476,14 @@ const Portfolio = () => {
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
           {/* - */}
-          <div className="portfolio-image-box col" onClick={openPopupboxClock}>
+          <div
+            className="portfolio-image-box col"
+            onClick={openBackgroundSlider}
+          >
             <img
               className="portfolio-image"
-              src={Clock}
-              alt="Clock Project..."
+              src={BackgroundSlider}
+              alt="Background Slider Project..."
             />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
