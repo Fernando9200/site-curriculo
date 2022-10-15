@@ -262,15 +262,14 @@ const Portfolio = () => {
         />
         <div class="clear"></div>
         <p id="p-portfolio">
-          This project is a blurry loading page made with the aim to study the
-          implementation of this feature.
+          This is the project of a personal website that emulates a terminal.
         </p>
         <div id="div-buttons" style={{ display: "inline" }}>
           <button
             id="button-portfolio"
             className="hyper-link"
             onClick={() =>
-              window.open("https://github.com/Fernando9200/blurry")
+              window.open("https://github.com/Fernando9200/TerminalPage")
             }
           >
             Github
@@ -279,7 +278,7 @@ const Portfolio = () => {
             id="button-portfolio"
             className="hyper-link"
             onClick={() =>
-              window.open("https://blurry-image-loading.netlify.app/")
+              window.open("https://terminal-personal-website.netlify.app/")
             }
           >
             Website
@@ -530,15 +529,15 @@ const Portfolio = () => {
         />
         <div class="clear"></div>
         <p id="p-portfolio">
-          This is a project of a page with images that works like expanding
-          cards when clicked.
+          This is a project of a ToDo List App that is used to register
+          day-to-day tasks.
         </p>
         <div id="div-buttons" style={{ display: "inline" }}>
           <button
             id="button-portfolio"
             className="hyper-link"
             onClick={() =>
-              window.open("https://github.com/Fernando9200/expading-cards")
+              window.open("https://github.com/Fernando9200/ToDoApp")
             }
           >
             Github
@@ -547,7 +546,7 @@ const Portfolio = () => {
             id="button-portfolio"
             className="hyper-link"
             onClick={() =>
-              window.open("https://expanding-cards-images.netlify.app/")
+              window.open("https://things-to-do-list-website.netlify.app/")
             }
           >
             Website
