@@ -18,7 +18,7 @@ function Footer() {
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="d-flex"></div>
             <div className="d-flex">
-              <a href="tel: (27) 9-9819-2780">+55 (27) 9-9819-2780</a>
+              <a href="tel: (27) 9-9715-0189">+55 (27) 9-9715-0189</a>
             </div>
             <div className="d-flex">
               <p>fernando91.sosa@hotmail.com</p>
