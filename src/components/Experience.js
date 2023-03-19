@@ -16,7 +16,7 @@ const Experience = () => {
                 textAlign: "justify",
               }}
             >
-              I acted as a Calculus 2 tutor at{" "}
+              I worked as a tutor for Calculus 2 at the{" "}
               <a
                 id="experience-link"
                 href="https://www.linkedin.com/school/univ-federal-do-espirito-santo/"
@@ -44,15 +44,14 @@ const Experience = () => {
                 // marginLeft: "260px",
               }}
             >
-              I worked as a freelancer at{" "}
+              As a freelancer at{" "}
               <a
                 id="experience-link"
                 href="https://www.linkedin.com/company/brainly-com/"
               >
                 Brainly
               </a>
-              , applying improvements in their online content using Search
-              Engine Optimization (SEO).
+              , I implemented SEO strategies to optimize their online content.
             </p>
           </div>
         </div>
@@ -67,16 +66,16 @@ const Experience = () => {
                 // marginRight: "250px",
               }}
             >
-              I worked as an intern full-stack developer at a Brazilian company
-              called{" "}
+              As a full-stack developer intern at{" "}
               <a
                 id="experience-link"
                 href="https://www.linkedin.com/company/locus-custom-software/"
               >
                 Locus Custom Software
               </a>
-              , performing modifications and fixing bugs in web applications
-              using Django and mobile applications using Flutter.
+              , a Brazilian company, I was responsible for modifying and fixing
+              bugs in web applications using Django and mobile applications
+              using Flutter.
             </p>
           </div>
         </div>
@@ -97,17 +96,17 @@ const Experience = () => {
                 // marginLeft: "260px",
               }}
             >
-              I currently work as a junior front-end developer at{" "}
+              I am currently employed as a front-end developer at{" "}
               <a
                 id="experience-link"
                 href="https://www.linkedin.com/company/hahn-softwareentwicklung/mycompany/"
               >
                 Hahn Softwareentwicklung GmbH
               </a>
-              , a software company from Germany specialized in customized
-              solutions for its customers, implementing new features and fixing
-              bugs in web applications using the vue.js framework and
-              JavaScript, HTML and CSS languages.
+              , a German software company that specializes in custom solutions
+              for its clients. In my role, I implement new features and fix bugs
+              in web applications using the Vue.js framework as well as
+              JavaScript, HTML, and CSS languages.
             </p>
           </div>
         </div>
