@@ -88,7 +88,7 @@ const Experience = () => {
                 textAlign: "right",
               }}
             >
-              2022
+              2022-2023
             </h3>
             <p
               style={{
