@@ -13,7 +13,7 @@ const AboutMe = () => {
         <div className="col-lg-6 col-xm-12">
             <h1 className="about-heading">about me</h1>
             <p style={{textAlign: 'justify', marginRight: '100px', marginTop: '25px'}}>
-            In 2016 I started my degree in physics at the Federal University of Espírito Santo (UFES), dreaming of becoming a researcher. However, when I studied programming for the first time during one of the course subjects, I ended up falling in love with IT and decided that this was my true vocation. Since then, I have been looking to learn and train myself more and more.
+            I pursued my degree in physics at the Federal University of Espírito Santo (UFES), driven by a dream to become a researcher. However, it wasn't until I took a programming course that I discovered my true passion for IT. I was immediately captivated and knew that this was the field I wanted to pursue. Since then, I have been continuously learning and honing my skills, driven by a deep curiosity and desire to stay at the forefront of this dynamic and constantly evolving industry.
             </p>
         </div>
       </div>
