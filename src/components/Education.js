@@ -19,10 +19,7 @@ const Education = () => {
               marginTop: "25px",
             }}
           >
-            In addition to my graduation in physics at UFES, I recently started
-            the Systems Analysis and Development course at Estácio de Sá
-            University. I have also taken several web development courses on
-            Udemy and Coursera.
+            I graduated in physics from UFES and have since been actively pursuing my passion for technology. Currently, I am studying towards a Professional Certificate in Computer Science for Web Programming through HarvardX. I have also completed several web development courses on Udemy and Coursera to expand my skill set.
           </p>
         </div>
       </div>
