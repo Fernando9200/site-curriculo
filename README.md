@@ -1,24 +1,32 @@
 # Portfolio
 
-This is an online portfolio where I describe my skills, education and experience. It's essentially a single-page application made with React.js and bootstrap.
+Welcome to my online portfolio! This single-page application is created using React.js and Bootstrap, where I showcase my skills, education, and experience.
 
-## Getting Started with Create React App
+## Getting Started
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Development
-
-To start development, you need to clone the GitHub project in a directory of your choice:
+To get started, clone this GitHub project into a directory of your choice using the following command:
 
 ```shell
 cd "directory of your choice"
 git clone https://github.com/Fernando9200/Portfolio.git
 ```
+## Development
 
-### Deployment
+This project was bootstrapped with Create React App. To start development, navigate to the project directory and use the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```shell
+cd Portfolio
+npm start
+```
 
-### `npm run build` fails to minify
+This will start a development server and open the application in your default browser. Any changes made to the code will automatically reload the page.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Deployment
+
+To deploy your application, run the following command in the project directory:
+
+```shell
+npm run build
+```
+
+This will create a build folder with your application code, which can be deployed to any static hosting service of your choice.
