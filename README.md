@@ -1,6 +1,6 @@
 # Portfolio
 
-Welcome to my online portfolio! This single-page application is created using React.js and Bootstrap, where I showcase my skills, education, and experience.
+This single-page application is created using React.js and Bootstrap, where a developer can showcase his skills, education, and experience.
 
 ## Getting Started
 
