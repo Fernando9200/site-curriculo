@@ -19,7 +19,7 @@ const Education = () => {
               marginTop: "25px",
             }}
           >
-            I graduated in physics from UFES and have since been actively pursuing my passion for technology. Currently, I am studying towards a Professional Certificate in Computer Science for Web Programming through HarvardX. I have also completed several web development courses on Udemy and Coursera to expand my skill set.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec tincidunt erat. Nulla facilisi. Donec scelerisque massa nec libero luctus, vitae ullamcorper massa posuere. In ac tincidunt metus, a volutpat turpis. Pellentesque facilisis velit in libero bibendum, nec ultricies odio gravida. Sed viverra.
           </p>
         </div>
       </div>

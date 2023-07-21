@@ -16,14 +16,7 @@ const Experience = () => {
                 textAlign: "justify",
               }}
             >
-              I worked as a tutor for Calculus 2 at the{" "}
-              <a
-                id="experience-link"
-                href="https://www.linkedin.com/school/univ-federal-do-espirito-santo/"
-              >
-                Federal University of Espírito Santo
-              </a>
-              .
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec.
             </p>
           </div>
         </div>
@@ -44,14 +37,7 @@ const Experience = () => {
                 // marginLeft: "260px",
               }}
             >
-              As a freelancer at{" "}
-              <a
-                id="experience-link"
-                href="https://www.linkedin.com/company/brainly-com/"
-              >
-                Brainly
-              </a>
-              , I implemented SEO strategies to optimize their online content.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec tincidunt erat.
             </p>
           </div>
         </div>
@@ -66,16 +52,7 @@ const Experience = () => {
                 // marginRight: "250px",
               }}
             >
-              As a full-stack developer intern at{" "}
-              <a
-                id="experience-link"
-                href="https://www.linkedin.com/company/locus-custom-software/"
-              >
-                Locus Custom Software
-              </a>
-              , a Brazilian company, I was responsible for modifying and fixing
-              bugs in web applications using Django and mobile applications
-              using Flutter.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec tincidunt erat. Nulla facilisi. Donec scelerisque massa nec libero luctus, vitae ullamcorper massa posuere. In ac tincidunt.
             </p>
           </div>
         </div>
@@ -96,17 +73,7 @@ const Experience = () => {
                 // marginLeft: "260px",
               }}
             >
-              I am currently employed as a front-end developer at{" "}
-              <a
-                id="experience-link"
-                href="https://www.linkedin.com/company/hahn-softwareentwicklung/mycompany/"
-              >
-                Hahn Softwareentwicklung GmbH
-              </a>
-              , a German software company that specializes in custom solutions
-              for its clients. In my role, I implement new features and fix bugs
-              in web applications using the Vue.js framework as well as
-              JavaScript, HTML, and CSS languages.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec tincidunt erat. Nulla facilisi. Donec scelerisque massa nec libero luctus, vitae ullamcorper massa posuere. In ac tincidunt metus, a volutpat turpis. Pellentesque facilisis velit in libero bibendum, nec ultricies odio gravida.
             </p>
           </div>
         </div>
