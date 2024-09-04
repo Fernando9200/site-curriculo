@@ -62,11 +62,11 @@ export const Navbar = () => {
                 Experience
               </Link>
             </li>
-            {/* <li className="nav-item"> */}
-              {/* <Link to="portfolio" offset={10} className="nav-link" href="#"> */}
-                {/* Portfolio */}
-              {/* </Link> */}
-            {/* </li> */}
+            <li className="nav-item">
+              <Link to="portfolio" offset={10} className="nav-link" href="#">
+                Portfolio
+              </Link>
+            </li>
             <li className="nav-item">
               <Link to="contacts" offset={-58} className="nav-link" href="#">
                 Contact

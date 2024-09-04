@@ -16,7 +16,14 @@ const Experience = () => {
                 textAlign: "justify",
               }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec.
+              I acted as a Calculus 2 tutor at{" "}
+              <a
+                id="experience-link"
+                href="https://www.linkedin.com/school/univ-federal-do-espirito-santo/"
+              >
+                Federal University of Espírito Santo
+              </a>
+              .
             </p>
           </div>
         </div>
@@ -37,7 +44,15 @@ const Experience = () => {
                 // marginLeft: "260px",
               }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec tincidunt erat.
+              I worked as a freelancer at{" "}
+              <a
+                id="experience-link"
+                href="https://www.linkedin.com/company/brainly-com/"
+              >
+                Brainly
+              </a>
+              , applying improvements in their online content using Search
+              Engine Optimization (SEO).
             </p>
           </div>
         </div>
@@ -52,7 +67,16 @@ const Experience = () => {
                 // marginRight: "250px",
               }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec tincidunt erat. Nulla facilisi. Donec scelerisque massa nec libero luctus, vitae ullamcorper massa posuere. In ac tincidunt.
+              I worked as an intern full-stack developer at a Brazilian company
+              called{" "}
+              <a
+                id="experience-link"
+                href="https://www.linkedin.com/company/locus-custom-software/"
+              >
+                Locus Custom Software
+              </a>
+              , performing modifications and fixing bugs in web applications
+              using Django and mobile applications using Flutter.
             </p>
           </div>
         </div>
@@ -65,7 +89,7 @@ const Experience = () => {
                 textAlign: "right",
               }}
             >
-              2022-2023
+              2022
             </h3>
             <p
               style={{
@@ -73,7 +97,17 @@ const Experience = () => {
                 // marginLeft: "260px",
               }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec tincidunt erat. Nulla facilisi. Donec scelerisque massa nec libero luctus, vitae ullamcorper massa posuere. In ac tincidunt metus, a volutpat turpis. Pellentesque facilisis velit in libero bibendum, nec ultricies odio gravida.
+              I currently work as a junior front-end developer at{" "}
+              <a
+                id="experience-link"
+                href="https://www.linkedin.com/company/hahn-softwareentwicklung/mycompany/"
+              >
+                Hahn Softwareentwicklung GmbH
+              </a>
+              , a software company from Germany specialized in customized
+              solutions for its customers, implementing new features and fixing
+              bugs in web applications using the vue.js framework and
+              JavaScript, HTML and CSS languages.
             </p>
           </div>
         </div>

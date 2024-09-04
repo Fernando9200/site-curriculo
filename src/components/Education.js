@@ -19,7 +19,10 @@ const Education = () => {
               marginTop: "25px",
             }}
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec tincidunt erat. Nulla facilisi. Donec scelerisque massa nec libero luctus, vitae ullamcorper massa posuere. In ac tincidunt metus, a volutpat turpis. Pellentesque facilisis velit in libero bibendum, nec ultricies odio gravida. Sed viverra.
+            In addition to my graduation in physics at UFES, I recently started
+            the Systems Analysis and Development course at Estácio de Sá
+            University. I have also taken several web development courses on
+            Udemy and Coursera.
           </p>
         </div>
       </div>

@@ -1,12 +1,16 @@
 import React from "react";
+import netflix from "../images/netflix.png";
 import cityGuide from "../images/city-guide-app.png";
+import portfolio from "../images/portfolio.png";
 import JobSearcher from "../images/JobSearcher.png";
 import SplitLanding from "../images/SplitLanding.png";
 import BackgroundSlider from "../images/BackgroundSlider.png";
 import DoubleVerticalSlider from "../images/DoubleVerticalSlider.png";
+import ExpandingCards from "../images/ExpandingCards.png";
 import Clock from "../images/Clock.png";
 import Blurry from "../images/Blurry.jpg";
 import RotatingNav from "../images/RotatingNav.png";
+import taskManager from "../images/task-manager.png";
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
@@ -15,6 +19,51 @@ import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
 
 const Portfolio = () => {
+  // Netflix
+  const openPopupboxNetflix = () => {
+    const content = (
+      <>
+        <img
+          className="portfolio-image-popupbox"
+          src={netflix}
+          alt="Netflix Clone Project..."
+        />
+        <div class="clear"></div>
+        <p id="p-portfolio">
+          This is a clone of netflix, made with the aim of studying the
+          development of front-end interfaces.
+        </p>
+        <div id="div-buttons" style={{ display: "inline" }}>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() =>
+              window.open("https://github.com/Fernando9200/Netflix-System")
+            }
+          >
+            Github
+          </button>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() => window.open("https://netflix-system.netlify.app/")}
+          >
+            Website
+          </button>
+        </div>
+      </>
+    );
+    PopupboxManager.open({ content });
+  };
+
+  const popupboxConfigNetflix = {
+    titleBar: {
+      enable: true,
+      text: "Netflix clone project.",
+    },
+    fadeIn: true,
+    fadeInSpeed: 500,
+  };
 
   // City Guide App
   const openPopupboxCityGuide = () => {
@@ -66,11 +115,92 @@ const Portfolio = () => {
     fadeInSpeed: 500,
   };
 
+  // Portfolio Project
+  const openPopupboxPortfolio = () => {
+    const content = (
+      <>
+        <img
+          className="portfolio-image-popupbox"
+          src={portfolio}
+          alt="Portfolio Project..."
+        />
+        <div class="clear"></div>
+        <p id="p-portfolio">
+          This project is a simplified version of the SpaceX website, using
+          their API to get the data.
+        </p>
+        <div id="div-buttons" style={{ display: "inline" }}>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() =>
+              window.open("https://github.com/Fernando9200/SpaceX")
+            }
+          >
+            Github
+          </button>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() => window.open("https://new-spacex.netlify.app/")}
+          >
+            Website
+          </button>
+        </div>
+      </>
+    );
+    PopupboxManager.open({ content });
+  };
 
   const popupboxConfigPortfolio = {
     titleBar: {
       enable: true,
       text: "Poftfolio React and Material UI project.",
+    },
+    fadeIn: true,
+    fadeInSpeed: 500,
+  };
+
+  // Task Manager React and Redux Project
+  const openPopupboxTaskManager = () => {
+    const content = (
+      <>
+        <img
+          className="portfolio-image-popupbox"
+          src={taskManager}
+          alt="Task Manager React and Redux Project..."
+        />
+        <div class="clear"></div>
+        <p id="p-portfolio">
+          This is a front-end project that shows the details of the horror-drama
+          series Penny Dreadful
+        </p>
+        <div id="div-buttons" style={{ display: "inline" }}>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() =>
+              window.open("https://github.com/Fernando9200/Dreadful-Details")
+            }
+          >
+            Github
+          </button>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() => window.open("https://dreadful-details.netlify.app/")}
+          >
+            Website
+          </button>
+        </div>
+      </>
+    );
+    PopupboxManager.open({ content });
+  };
+
+  const popupboxConfigTaskManager = {
+    titleBar: {
+      enable: false,
     },
     fadeIn: true,
     fadeInSpeed: 500,
@@ -389,11 +519,70 @@ const Portfolio = () => {
     fadeInSpeed: 500,
   };
 
+  const openExpandingCards = () => {
+    const content = (
+      <>
+        <img
+          className="portfolio-image-popupbox"
+          src={ExpandingCards}
+          alt="ExpandingCards..."
+        />
+        <div class="clear"></div>
+        <p id="p-portfolio">
+          This is a project of a ToDo List App that is used to register
+          day-to-day tasks.
+        </p>
+        <div id="div-buttons" style={{ display: "inline" }}>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() =>
+              window.open("https://github.com/Fernando9200/ToDoApp")
+            }
+          >
+            Github
+          </button>
+          <button
+            id="button-portfolio"
+            className="hyper-link"
+            onClick={() =>
+              window.open("https://things-to-do-list-website.netlify.app/")
+            }
+          >
+            Website
+          </button>
+        </div>
+      </>
+    );
+    PopupboxManager.open({ content });
+  };
+
+  const popupboxExpandingCards = {
+    titleBar: {
+      enable: false,
+    },
+    fadeIn: true,
+    fadeInSpeed: 500,
+  };
+
   return (
     <div id="portfolio" className="portfolio-wrapper">
       <div className="container">
         <h1 className="text-uppercase text-center py-5">portfolio</h1>
         <div className="image-box-wrapper row row-cols-auto">
+          <div
+            className="portfolio-image-box col"
+            onClick={openPopupboxNetflix}
+          >
+            <img
+              className="portfolio-image"
+              src={netflix}
+              alt="Netflix Clone Project..."
+            />
+            <div className="overflow"></div>
+            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+          </div>
+          {/* - */}
           <div
             className="portfolio-image-box col"
             onClick={openPopupboxCityGuide}
@@ -402,6 +591,32 @@ const Portfolio = () => {
               className="portfolio-image"
               src={cityGuide}
               alt="City Guide Project..."
+            />
+            <div className="overflow"></div>
+            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+          </div>
+          {/* - */}
+          <div
+            className="portfolio-image-box col"
+            onClick={openPopupboxPortfolio}
+          >
+            <img
+              className="portfolio-image"
+              src={portfolio}
+              alt="Portfolio React and Material UI Project..."
+            />
+            <div className="overflow"></div>
+            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+          </div>
+          {/* - */}
+          <div
+            className="portfolio-image-box col"
+            onClick={openPopupboxTaskManager}
+          >
+            <img
+              className="portfolio-image"
+              src={taskManager}
+              alt="Task Manager React and Redux Project..."
             />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
@@ -487,10 +702,22 @@ const Portfolio = () => {
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
+          {/* - */}
+          <div className="portfolio-image-box col" onClick={openExpandingCards}>
+            <img
+              className="portfolio-image"
+              src={ExpandingCards}
+              alt="Expanding Cards..."
+            />
+            <div className="overflow"></div>
+            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+          </div>
         </div>
       </div>
+      <PopupboxContainer {...popupboxConfigNetflix} />
       <PopupboxContainer {...popupboxConfigCityGuide} />
       <PopupboxContainer {...popupboxConfigPortfolio} />
+      <PopupboxContainer {...popupboxConfigTaskManager} />
       <PopupboxContainer {...popupboxConfigJobSearcher} />
       <PopupboxContainer {...popupboxConfigClock} />
       <PopupboxContainer {...popupboxConfigRotatingNav} />

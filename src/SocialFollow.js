@@ -9,11 +9,11 @@ import {
 export default function SocialFollow() {
   return (
     <div class="social-container">
-      <a href="https://www.linkedin.com/"
+      <a href="https://www.linkedin.com/in/fernando-carretto/"
         className="linkedin social">
         <FontAwesomeIcon icon={faLinkedin} size="2x" />
       </a>
-      <a href="https://github.com/"
+      <a href="https://github.com/Fernando9200"
         className="github social">
         <FontAwesomeIcon icon={faGithub} size="2x" />
       </a>
